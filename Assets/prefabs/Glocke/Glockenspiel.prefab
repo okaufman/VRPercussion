@@ -352,7 +352,6 @@ GameObject:
   - component: {fileID: 220676161960161534}
   - component: {fileID: 220676161960161529}
   - component: {fileID: 220676161960161528}
-  - component: {fileID: 220676161960161535}
   m_Layer: 0
   m_Name: Hauptstange
   m_TagString: Untagged
@@ -419,20 +418,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!136 &220676161960161535
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 220676161960161533}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!1 &220676162245469343
 GameObject:
   m_ObjectHideFlags: 0
@@ -626,7 +611,6 @@ GameObject:
   - component: {fileID: 220676162630707471}
   - component: {fileID: 220676162630707466}
   - component: {fileID: 220676162630707465}
-  - component: {fileID: 220676162630707464}
   m_Layer: 0
   m_Name: "Verl\xE4ngerung"
   m_TagString: Untagged
@@ -693,17 +677,3 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!136 &220676162630707464
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 220676162630707470}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}

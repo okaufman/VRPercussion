@@ -306,11 +306,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Glockenspiel
       objectReference: {fileID: 0}
-    - target: {fileID: 220676160589584629, guid: 9cac327b6499fe542b97524eb72c9449,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 220676160589584630, guid: 9cac327b6499fe542b97524eb72c9449,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -379,6 +374,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Schlaeger Cymbal
+      objectReference: {fileID: 0}
+    - target: {fileID: 6093607988509874803, guid: 1319243f4414960458d72c9e71a2e6ef,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5342039876311771032, guid: 1319243f4414960458d72c9e71a2e6ef,
         type: 3}
@@ -523,6 +523,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Schlaeger Glocke
       objectReference: {fileID: 0}
+    - target: {fileID: 158008961455133859, guid: 39c2ad1bd99534844ac583810cd79344,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3441491436202930555, guid: 39c2ad1bd99534844ac583810cd79344,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -591,6 +596,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Schlaeger Drums
+      objectReference: {fileID: 0}
+    - target: {fileID: 7064803483598027860, guid: 40336527280a6f9408d8b91e181aec7e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2841973886284558008, guid: 40336527280a6f9408d8b91e181aec7e,
         type: 3}
