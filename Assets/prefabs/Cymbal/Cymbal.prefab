@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4514497948990235465}
   m_LocalRotation: {x: 0.20494594, y: -0.0058322204, z: -0.035640396, w: 0.97810686}
-  m_LocalPosition: {x: -0.01, y: -7.711, z: 0.001}
+  m_LocalPosition: {x: 0.041, y: 0.856, z: 0.012}
   m_LocalScale: {x: 0.5, y: 0.02, z: 0.5}
   m_Children: []
   m_Father: {fileID: 3261494460384623}
@@ -120,8 +120,9 @@ GameObject:
   - component: {fileID: 4514497949878220091}
   - component: {fileID: 4514497949878220090}
   - component: {fileID: 4514497949878220089}
-  - component: {fileID: 13319241}
   - component: {fileID: 13319240}
+  - component: {fileID: 13319241}
+  - component: {fileID: 7157113233867608302}
   m_Layer: 0
   m_Name: halter
   m_TagString: Untagged
@@ -137,7 +138,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4514497949878220087}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -8.59, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.05, y: 0.9, z: 0.05}
   m_Children: []
   m_Father: {fileID: 3261494460384623}
@@ -188,6 +189,41 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!59 &13319240
+HingeJoint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4514497949878220087}
+  m_ConnectedBody: {fileID: 1304013370}
+  m_Anchor: {x: 0, y: 1.0000001, z: 0}
+  m_Axis: {x: 1, y: 0, z: 0}
+  m_AutoConfigureConnectedAnchor: 1
+  m_ConnectedAnchor: {x: -0.088055074, y: 1.6307765, z: -0.05509305}
+  m_UseSpring: 0
+  m_Spring:
+    spring: 0
+    damper: 0
+    targetPosition: 0
+  m_UseMotor: 0
+  m_Motor:
+    targetVelocity: 0
+    force: 0
+    freeSpin: 0
+  m_UseLimits: 0
+  m_Limits:
+    min: 0
+    max: 0
+    bounciness: 0
+    bounceMinVelocity: 0.2
+    contactDistance: 0
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_EnableCollision: 0
+  m_EnablePreprocessing: 1
+  m_MassScale: 1
+  m_ConnectedMassScale: 1
 --- !u!54 &13319241
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -204,7 +240,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!59 &13319240
+--- !u!59 &7157113233867608302
 HingeJoint:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -215,7 +251,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 1.0000001, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.016925588, y: 0.97272044, z: -0.019173235}
+  m_ConnectedAnchor: {x: -0.088055074, y: 1.6307765, z: -0.05509305}
   m_UseSpring: 0
   m_Spring:
     spring: 0
