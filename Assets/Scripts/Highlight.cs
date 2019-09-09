@@ -10,12 +10,13 @@ public class Highlight : MonoBehaviour
 
     private void Start()
     {
-        spotLight.intensity = 0;
+        spotLight.intensity = 0; 
     }
 
     // Update is called once per frame
     void Update()
     {
+
         if (Input.GetKeyDown(keyCode))
         {
             spotLight.intensity = 1;
